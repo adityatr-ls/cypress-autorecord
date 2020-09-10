@@ -1,5 +1,5 @@
 {
-  "name": "cypress-autorecord",
+  "name": "@adityatr/cypress-autorecord",
   "version": "1.1.0",
   "description": "It simplifies mocking by auto-recording/stubbing HTTP interactions and automate the process of updating/deleting recordings.",
   "main": "index.js",
@@ -8,10 +8,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nancy Du",
-  "keywords": ["Cypress", "http", "https", "record", "playback", "mock", "vcr"],
+  "keywords": [
+    "Cypress",
+    "http",
+    "https",
+    "record",
+    "playback",
+    "mock",
+    "vcr"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nanciee/cypress-autorecord"
+    "url": "git+https://github.com/adityatr-ls/cypress-autorecord.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityatr-ls/cypress-autorecord/issues"
+  },
+  "homepage": "https://github.com/adityatr-ls/cypress-autorecord#readme"
 }
